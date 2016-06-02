@@ -9,16 +9,6 @@
   color: #f2f2f2;
   padding: 20px 0 0 0;
 }
-#home {
-  margin: 0 auto;
-  border: solid red 2px;
-  height: auto;
-  width: 400px;
-}
-#home img {
-  width: 100%;
-  height: auto;
-}
 /*Make backgrounds cover the entire screen*/
 #section0,
 #section1,
@@ -29,6 +19,55 @@
 }
 /*Select background images*/
 #section0 {
-  background-image: url(../images/images/sunset.jpeg);
+  background-image: url(../images/images/sunset2.jpg);
   padding: 30% 0 0 0;
+  position: relative;
+}
+#section0 h1 {
+  color: white;
+}
+#home {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  margin: 0 auto;
+  border: solid red 2px;
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+}
+#home img {
+  width: 100%;
+  height: auto;
+}
+#section1 {
+  /*background-image: url(../images/images/mountain.jpg);*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/images/mountain.jpg);
+  padding: 10% 0 0 0;
+  color: white;
+}
+#section1 h1 {
+  color: white;
+}
+#section1 h2 {
+  font-size: 2.7em;
+  color: white;
+  /*background-color: rgba(0,0,0,0.5);*/
+}
+#section1 p {
+  width: 70%;
+  margin: 0 auto;
+  /*	background-color: rgba(0,0,0,0.5);*/
+}
+#footer {
+  position: fixed;
+  height: 50px;
+  display: block;
+  width: 100%;
+  background: #333;
+  z-index: 9;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 20px 0 0 0;
+  bottom: 0px;
 }
