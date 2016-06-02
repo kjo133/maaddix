@@ -1,6 +1,6 @@
 #header {
   position: fixed;
-  height: 50px;
+  height: 30px;
   display: block;
   width: 100%;
   background: #333;
@@ -8,4 +8,27 @@
   text-align: center;
   color: #f2f2f2;
   padding: 20px 0 0 0;
+}
+#home {
+  margin: 0 auto;
+  border: solid red 2px;
+  height: auto;
+  width: 400px;
+}
+#home img {
+  width: 100%;
+  height: auto;
+}
+/*Make backgrounds cover the entire screen*/
+#section0,
+#section1,
+#section2,
+#section3 {
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*Select background images*/
+#section0 {
+  background-image: url(../images/images/sunset.jpeg);
+  padding: 30% 0 0 0;
 }
