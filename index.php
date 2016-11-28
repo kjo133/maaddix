@@ -32,12 +32,13 @@
 	<div id="header">
 		<ul id="menu">
 			<li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
-			<li data-menuanchor="secondPage"><a href="#secondPage">About</a></li>
-			<li data-menuanchor="3rdPage"><a href="#3rdPage">Gallery</a></li>
+			<li data-menuanchor="secondPage"><a href="#secondPage">Gallery</a></li>
+			<li data-menuanchor="3rdPage"><a href="#3rdPage">About</a></li>
+			
 		</ul>
 	</div>
 
-	<div id="footer">Footer</div>
+
 
 	<div id="fullpage">
 		<div class="section active" id="section0">
@@ -53,7 +54,7 @@
 			</div>
 			<div class ="slide">
 				<h2>Partners</h2>
-				<p>Name <br/>
+				<p>Name 1<br/>
 					Name 2 <br />
 					Name 3
 				</p>
@@ -66,6 +67,8 @@
 <!-- 		<div class="section" id="section2"><h1>No wraps, no extra markup</h1></div>
 		<div class="section" id="section3"><h1>Just the simplest demo ever</h1></div> -->
 	</div>
+
+		<div id="footer">Footer</div>
 
 
 
