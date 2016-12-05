@@ -1,14 +1,88 @@
 #header {
   position: fixed;
-  height: 30px;
+  height: 70px;
   display: block;
   width: 100%;
   background: #333;
   z-index: 9;
   text-align: center;
-  color: #f2f2f2;
+  /*	color: #f2f2f2;*/
+  color: white;
   padding: 20px 0 0 0;
 }
+#logo {
+  float: left;
+  height: 30px;
+  width: 30px;
+}
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#menu img {
+  height: 100px;
+  width: 100px;
+}
+#menu li {
+  display: inline-block;
+  margin: 30px;
+}
+#menu li a {
+  color: white;
+  font-size: 30px;
+}
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+/* DEMO example styles for logo image */
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand > img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px;
+}
+/*#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}*/
+/*#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}*/
 /*Make backgrounds cover the entire screen*/
 #section0,
 #section1,
@@ -59,9 +133,27 @@
   margin: 0 auto;
   /*	background-color: rgba(0,0,0,0.5);*/
 }
+#section2 {
+  background-color: black;
+  padding: 10% 0 0 0;
+  color: white;
+}
+#section2 h1 {
+  color: white;
+}
+#section2 h2 {
+  font-size: 2.7em;
+  color: white;
+  /*background-color: rgba(0,0,0,0.5);*/
+}
+#section2 p {
+  width: 70%;
+  margin: 0 auto;
+  /*	background-color: rgba(0,0,0,0.5);*/
+}
 #footer {
   position: fixed;
-  height: 30px;
+  height: 50px;
   display: block;
   width: 100%;
   background: #333;

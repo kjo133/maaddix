@@ -72,7 +72,7 @@ p{
 .section{
 	text-align:center;
 }
-#menu li {
+/*#menu li {
 	display:inline-block;
 	margin: 10px;
 	color: #000;
@@ -113,7 +113,7 @@ p{
 	width: 100%;
 	padding: 0;
 	margin:0;
-}
+}*/
 .twitter-share-button{
 	position: fixed;
 	z-index: 99;
