@@ -18,10 +18,11 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['firstPage', 'secondPage', '3rdPage'],
+				anchors: ['home', 'secondPage', '3rdPage'],
 				menu: '#menu',
 				verticalCentered: false,
-				css3:false
+				css3:false,
+				autoScrolling: false
 
 			});
 		});
@@ -29,8 +30,8 @@
 
 </head>
 <body>
-
-  <nav class="navbar navbar-default navbar-fixed-top">
+<!-- navbar-default -->
+  <nav class="navbar  navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -39,17 +40,16 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-              <a class="navbar-brand" href="#"><img src="images/logo/Maaddix-03.jpg" style="height: 50px; width: 50px;" alt="Dispute Bills">
-      </a>
+              <a class="navbar-brand" href="#"><img src="images/logo/MaaddixLogoWhite.png" alt="Logo"></a>
       </div>
       
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-left">
+      <div  class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left" id="navbarleft">
           <li><a href="#">Home</a></li>
           <li><a href="#">Gallery</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">About</a></li>
+        <ul class="nav navbar-nav navbar-right" id="navbarright">
+          <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
@@ -60,26 +60,10 @@
 
 
 
-
-<!-- 
-	<div id="header">
- 		<ul id="menu">
-			<li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
-			<li data-menuanchor="secondPage"><a href="#secondPage">Gallery</a></li>
-			</ul>
-			<img src="images/logo/Maaddix-03.jpg" id="logo">
-			<ul id="menu">
-			<li data-menuanchor="3rdPage"><a href="#3rdPage">About!</a></li>
-			</ul>
-	</div>
- -->
-
  	<div id="fullpage">
 		<div class="section active" id="section0">
-			<!-- <h1>MAADDIX</h1> 
-				<div id="home"><img src="images/logo/Maaddix-03.png" height="100px" width="100px"></div>
-				-->
 		</div>
+		<!--ABOUT -->
 		<div class="section" id="section1">
 			<h1>About Us</h1>
 			<div class ="slide active">
@@ -94,20 +78,37 @@
 				</p>
 			</div>
 		</div>
-	<div class="section" id="section2">
-			<h1>Gallery</h1>
-			<div class ="slide">
-				<h2>MAADDIX Mission</h2>
-				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ul."</p>
-			</div>
-			
-		</div>
-
-
 		<!-- END ABOUT -->
+
+		<!-- GALLERY -->
+		<div class="section" id="section2">
+
+			<h1>Adventure Gallery</h1>
+			<div class="container" style="border: solid red;">
+				<div class="gallery">
+					<a tabindex="1"><img src="images/images/1.jpg"></a>
+					<a tabindex="1"><img src="images/images/2.jpg"></a>
+					<a tabindex="1"><img src="images/images/3.jpg"></a>
+					<a tabindex="1"><img src="images/images/4.jpg"></a>
+					<a tabindex="1"><img src="images/images/5.jpg"></a>
+					<a tabindex="1"><img src="images/images/6.jpg"></a>
+					<a tabindex="1"><img src="images/images/7.jpg"></a>
+					<a tabindex="1"><img src="images/images/8.jpg"></a>
+					<a tabindex="1"><img src="images/images/9.jpg"></a>
+					<a tabindex="1"><img src="images/images/10.jpg"></a>
+					<a tabindex="1"><img src="images/images/3.jpg"></a>
+				</div>	
+			</div>
+			<!-- END CONTAINTER -->
+		</div>
+		<!-- END GALLERY -->
+
+
 	</div>
 
-		<div id="footer">Footer</div>
+	<div id="footer">
+		<a class="navbar-brand" href="#"><img src="images/logo/MaaddixLogoWhite.png" alt="Logo"></a>
+	</div>
 
 
 

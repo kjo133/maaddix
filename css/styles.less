@@ -1,3 +1,7 @@
+.section{
+	text-align:center;
+}
+
 #header{
 	position:fixed;
 	height: 70px;
@@ -43,31 +47,28 @@
 .navbar-brand {
   transform: translateX(-50%);
   left: 50%;
+	padding: 0px;
   position: absolute;
+  
 }
 
-
-/* DEMO example styles for logo image */
-.navbar-brand {
-  padding: 0px;
-}
 .navbar-brand>img {
   height: auto;
-  width: 80px;
+  width: 70px;
   margin-top: -10px; 
 }
 
 #navbarleft{
-	margin-left: 35%;
+	margin-left: 200px;
 	li a{
-		color: white;
+		color: black;
 	}
 }
 
 #navbarright{
-	margin-right: 35%;
+	margin-right: 200px;
 	li a{
-		color: white;
+		color: black;
 	}
 }
 
@@ -86,7 +87,7 @@
 
 /*Select background images*/
 #section0{
-	background-image: url(../images/images/sunset2.jpg);
+	background-image: url(../images/images/sunset3.jpg);
 	padding: 30% 0 0 0;
 	position: relative;
 	h1{
@@ -111,7 +112,7 @@
 
 #section1{
 	/*background-image: url(../images/images/mountain.jpg);*/
-	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/images/mountain.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/images/mountainSmall.jpg);
 	padding: 10% 0 0 0;
 	color: white;
 	h1{
@@ -131,7 +132,8 @@
 
 #section2{
 	background-color: black;
-	padding: 10% 0 0 0;
+	height: 1500px;
+	padding: 2% 0 0 0;
 	color: white;
 	h1{
 		color: white;
@@ -148,6 +150,102 @@
 	}
 }
 
+/*Gallery*/
+.gallery {
+width:1000px;
+height: 550px;
+overflow: scroll;
+margin:0 auto;
+border: solid blue;
+}
+.gallery a {
+display:inline-block;
+height:170px;
+position:relative;
+width:200px;
+}
+.gallery a img {
+border:5px solid #fff;
+cursor:pointer;
+display:block;
+height:100%;
+left:0px;
+position:absolute;
+top:0px;
+width:100%;
+z-index:1;
+-moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+-webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, z-index, border;
+transition-duration:0.5s;
+}
+.gallery a:focus img {
+border:15px solid #fff;
+cursor:default;
+height:250%;
+position:absolute;
+width:250%;
+z-index:25;
+box-shadow:1px 1px 5px #888;
+-moz-box-shadow:1px 1px 5px #888;
+-webkit-box-shadow:1px 1px 5px #888;
+-webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+-webkit-transition-duration:0.5s;
+-moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+-moz-transition-duration:0.5s;
+-o-transition-property:width, height, top, bottom, left, right, z-index, border;
+-o-transition-duration:0.5s;
+transition-property:width, height, top, bottom, left, right, z-index, border;
+transition-duration:0.5s;
+}
+/* custom focus rules */
+.gallery a:focus:nth-child(3n+1) img {
+left:150px;
+}
+.gallery a:focus:nth-child(3n+2) img {
+left:-50px;
+}
+.gallery a:focus:nth-child(3n+3) img {
+left:-250px;
+}
+.gallery a:focus:nth-child(-n+3) img {
+top:140px;
+}
+.gallery a:focus:nth-child(n+7) img {
+top:-150px;
+}
+.gallery a:focus:nth-child(n+10) img {
+top:-295px;
+}
+/* extra close layer */
+.gallery .close {
+background:transparent;
+cursor:pointer;
+display:none;
+height:352px;
+left:170px;
+position:absolute;
+top:160px;
+width:500px;
+z-index:30;
+}
+.gallery a:focus ~ .close {
+display:block;
+}
+
+/*End Gallery*/
+
+
 
 
 
@@ -156,7 +254,7 @@
 		height: 50px;
 		display:block;
 		width: 100%;
-		background: black;
+		
 		z-index:9;
 		text-align:center;
 		color: #f2f2f2;
