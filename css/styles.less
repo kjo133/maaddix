@@ -56,8 +56,14 @@ html {
   	height: 100%;
   	width: 100%;
   }
+  img:hover{
+  	 -webkit-transform: scale(1.3);
+     -ms-transform: scale(1.3);
+     transform: scale(1.3);
+     transition-duration: .3s;
+  }
   h3{
-  	color: white;
+  	color: black;
   	margin-top: -135px;
   	text-align: center;
   	font-family: Snell Roundhand;
@@ -68,16 +74,25 @@ html {
   padding: 80px 0px;
   height: 700px;
   background-color: black;
+  font-family: Trebuchet MS;
   h1{
 	font-size: 64px;
   	color: white;
   	margin: 0 auto;
   	text-align: center;
   	padding-bottom: 20px;
-
+  }
+  h2{
+  	width: 70%;
+  	margin: 0 auto;
+  	font-size: 28px;
+  	color: white;
+  	text-align: center;
   }
   p{
-	font-size: 28px;
+  	width: 70%;
+  	margin: 0 auto;
+	font-size: 20px;
   	color: white;
   	text-align: center;
   }
@@ -96,13 +111,20 @@ html {
   	margin: 0 auto;
   	text-align: center;
   }
+  h2{
+  	font-size: 20px;
+  	color: white;
+  	a{
+  		color: white;
+  	}
+  }
 }
 .ImageContainer{
 	max-width: 1000px;
 	height: 700px;
 	margin: 5% auto;
 	padding: 20px;
-	background-color: #fff;
+	background-color: rgba(0,0,0,0.7);
 	border-radius: 10px;
 	overflow: hidden;
 	box-sizing: border-box;
@@ -122,6 +144,9 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  :hover{
+  	border: solid white;
+  }
 }
 
 .lightbox-gallery div > img {
@@ -178,6 +203,12 @@ html {
 	line-height: 1.5;
 	font-weight: 700;
 	color: #eee;
+}
+
+footer{
+	height: 75px;
+	background-color:black;
+	padding-top: 20px;
 }
 
 
