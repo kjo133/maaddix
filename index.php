@@ -1,35 +1,44 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
+
+<!-- <SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "m@addixpwd") {
+alert('You Got it Right!');
+window.open('www.wikihow.com');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
+<CENTER>
+<FORM>
+<input type="button" value="Enter Protected Area" onClick="passWord()">
+</FORM>
+</CENTER> -->
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maaddix</title>
-    <!-- <link rel="stylesheet" href="css/css/foundation.css"> -->
-    <!-- <link rel="stylesheet" href="css/css/app.css"> -->
-    <!-- <link rel="stylesheet" href="css/css/styles.css"> -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
   </head>
-  <body>
-    <!-- HEAD -->
-<!--     <nav class="top-bar nav-desktop" style="border: solid red;">
-      <div class="wrapper">
-        <div class="top-bar-left" style="border: solid blue;">
-          <h3 class="site-logo">Maaddix</h3>
-        </div>
-       
-        <div class="top-bar-right" style="border: solid red;">
-          <ul class="menu menu-desktop">
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        </div>
-      </div>
-   </nav> -->
 
+  <body>
    <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container">
       <div class="navbar-header">
@@ -39,27 +48,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img src="images/logo/maaddText.png" alt="">
-        </a>
+        <a class="navbar-brand" href="#"><img src="images/logo/maaddText.png" alt=""></a>
       </div>
       <div id="navbar3" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#gallery">Gallery</a></li>
-
-          <!-- <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li> -->
+          <li><a target="_blank" href="https://www.instagram.com/ma_addix/"><i class="fa fa-lg fa-instagram"></i></a></li>
+          <li><a target="_blank" href="#" ><i class="fa fa-lg fa-youtube"></i></a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -67,112 +64,64 @@
     <!--/.container-fluid -->
   </nav>
 
-
-
-
-
    <!--   HERO SECTION -->
      <div class="hero">
-  
-     <!--  <div class="wrapper">
-        <h1>Welcome to Maaddix</h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         <a href="#" class="button success">Contact Us</a>
-         <a href="#" class="button">Learn More</a>
-      </div> -->
         <div id="heroLogo">
           <img src="images/logo/Maaddix-03.png" >
           <h3>A Love Affair With Mountain Air</h3>
-          <h1 style="color:white; text-align: center;">A KEVIN OLSON WEBSITE PRODUCTION</h1>
-        </div>
-     	  
+        </div> 
      </div>
-
      <!-- MAIN -->
      <section class="main" id="about">
        <div class="wrapper row">
          <div class="medium-12 column">
-          <h1>Maaddix Mission</h1>
-           <p>Mountain Air Addix (MAADDIX) is an apparel-logo lifestyle brand encompassing all mountain adventures and mountain sports.  We created this lifestyle brand for all mountain adventurers, for a culture that appreciates all the earth has to offer, and for those that are not ashamed of their love affair with mountain air.  Mountains are not meant to be barriers or hindrances, but meant to be overcome and conquered.  Your mountain is calling, go climb it and share it with MAADDIX.  
+          <h1>Our Mission</h1>
+          <h2>Mountain Air Addix (MAADDIX) is an apparel-logo lifestyle brand encompassing all mountain adventures and mountain sports.  </h2>
+          <br />
+           <p>We created this lifestyle brand for all mountain adventurers, for a culture that appreciates all the earth has to offer, and for those that are not ashamed of their love affair with mountain air.  
+           <br />
+           <br />
+           Mountains are not meant to be barriers or hindrances, but meant to be overcome and conquered.  Your mountain is calling, go climb it and share it with MAADDIX.  
            <br/>
-           Web Master: Kevin Olson
+           <br/>
+              <p style="font-size: 14px;">Founder: Anna Boling
+              <br/ >
+              <a target="_blank" href="http://www.kevinjolson.com/portfolio" style="color:white;">Web Master: Kevin Olson</a>
+              </p>
            </p>
          </div>
-         <!--  <div class="small-12 medium-6 column">
-            <h1>Second Section</h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         </div> -->
        </div>
      </section>
 
+<!-- Photo Gallery -->
      <section class="gallery">
-
      	<div class="wrapper" id="#gallery">
      		<h1>Adventure Gallery</h1>
           <div class="ImageContainer">
-            <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our mountain air addix.  <br/> Send us your latest and greatest conquests at mountainairaddix@gmail.com <br/> Also be sure to checkout Kevin Olson's Music!</h2>
+            <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our Mountain Air Addix.  <br/> Send us your latest and greatest conquests at <a href='#'>mountainairaddix@gmail.com </a></h2>
             <div class="lightbox-gallery">
-                <div><img src="images/images/1.JPG"></div>
-                <div><img src="images/images/2.JPG"></div>
-                <div><img src="images/images/3.JPG"></div>
-                <div><img src="images/images/4.JPG"></div>
-                <div><img src="images/images/5.JPG"></div>
-                <div><img src="images/images/6.JPG"></div>
-                 <div><img src="images/images/7.JPG"></div>
-                <div><img src="images/images/8.JPG"></div>
-                <div><img src="images/images/9.JPG"></div>
-                <div><img src="images/images/10.JPG"></div>
-                <div><img src="images/images/11.JPG"></div>
-                <div><img src="images/images/12.JPG"></div>
-                <div><img src="images/images/13.JPG"></div>
-                <div><img src="images/images/14.JPG"></div>
-                <div><img src="images/images/15.JPG"></div>
-                <div><img src="images/images/16.JPG"></div>
-                 <div><img src="images/images/17.JPG"></div>
-                <div><img src="images/images/18.JPG"></div>
-                <div><img src="images/images/19.JPG"></div>
-                <div><img src="images/images/20.JPG"></div>
-                <div><img src="images/images/21.JPG"></div>
-                <div><img src="images/images/22.JPG"></div>
-                <div><img src="images/images/23.JPG"></div>
-                <div><img src="images/images/24.JPG"></div>
-                <div><img src="images/images/25.JPG"></div>
-
+                <?php  
+                  $dirname = "images/images/";
+                  $images = glob($dirname."*.JPG");
+                  foreach ($images as $image) {
+                    echo '<div><img src="'.$image.'" /></div>';
+                  }
+                ?>         
             </div>
          </div>
      	</div>
      </section>
 
-     <!-- FOOTER -->
-     <footer>
-      <!--  <div class="wrapper row small-up-1 medium-up-3">
-         <div class="column">
-           <h4>Contact Info</h4>
-           <hr>
-           <a href="#">Phone</a>
-           <a href="#">Email</a>
-           <a href="#">Address</a>
-         </div>
-
-         <div class="column">
-          <h4>Site Map</h4>
-          <hr>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
-         </div>
-
-         <div class="column">
-           <h4>Social</h4>
-           <hr>
-           <a href="#">Facebook</a>
-           <a href="#">Twitter</a>
-           <a href="#">Instagram</a>
-         </div>
-       </div> -->
-     </footer>
+<!-- FOOTER -->
+  <footer>
+    <div class="container text-center">
+      <a target="_blank" href="https://www.instagram.com/ma_addix/"><i class="fa fa-2x fa-instagram"></i></a> &nbsp
+      <a target="_blank" href="#"><i class="fa fa-2x fa-youtube"></i></a>
+    </div>
+  </footer>
 
     <script src="js/vendor/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/lightbox.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
