@@ -56,7 +56,7 @@ return " ";
           <li><a href="#about">About</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li><a target="_blank" href="https://www.instagram.com/ma_addix/"><i class="fa fa-lg fa-instagram"></i></a></li>
-          <li><a target="_blank" href="#" ><i class="fa fa-lg fa-youtube"></i></a></li>
+          <li><a target="_blank" href="https://www.youtube.com/channel/UCEjYZO3Mw_voTiDboWBl7Sg" ><i class="fa fa-lg fa-youtube"></i></a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -116,7 +116,7 @@ return " ";
   <footer>
     <div class="container text-center">
       <a target="_blank" href="https://www.instagram.com/ma_addix/"><i class="fa fa-2x fa-instagram"></i></a> &nbsp
-      <a target="_blank" href="#"><i class="fa fa-2x fa-youtube"></i></a>
+      <a target="_blank" href="https://www.youtube.com/channel/UCEjYZO3Mw_voTiDboWBl7Sg"><i class="fa fa-2x fa-youtube"></i></a>
     </div>
   </footer>
 
