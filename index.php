@@ -68,7 +68,7 @@ return " ";
    <!--   HERO SECTION -->
      <div class="hero">
         <div id="heroLogo">
-          <img src="images/logo/Maaddix-03.png" >
+          <a href="#about"><img src="images/logo/Maaddix-03.png" ></a>
           <h3>A Love Affair With Mountain Air</h3>
         </div> 
      </div>
@@ -96,7 +96,7 @@ return " ";
 
 <!-- Photo Gallery -->
      <section class="gallery">
-     	<div class="wrapper" id="#gallery">
+     	<div class="wrapper" id="gallery">
      		<h1>Adventure Gallery</h1>
           <div class="ImageContainer">
             <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our Mountain Air Addix.  <br/> Send us your latest and greatest conquests at <a href='#'>mountainairaddix@gmail.com </a></h2>
