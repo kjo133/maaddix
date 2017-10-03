@@ -37,6 +37,7 @@ return " ";
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.css">
   </head>
 
   <body>
@@ -99,7 +100,7 @@ return " ";
      	<div class="wrapper" id="gallery">
      		<h1>Adventure Gallery</h1>
           <div class="ImageContainer">
-            <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our Mountain Air Addix.  <br/> Send us your latest and greatest conquests at <a href='#'>mountainairaddix@gmail.com </a></h2>
+          <!--   <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our Mountain Air Addix.  <br/> Send us your latest and greatest conquests at <a href='#'>mountainairaddix@gmail.com </a></h2>
             <div class="lightbox-gallery">
                 <?php  
                   $dirname = "images/images/";
@@ -108,7 +109,23 @@ return " ";
                     echo '<div><img src="'.$image.'" /></div>';
                   }
                 ?>         
-            </div>
+            </div> -->
+
+            <?php
+              $dirname = "images/images/";
+              $images = glob($dirname."*.JPG");
+              foreach ($images as $image) {
+                echo $image;
+              }
+            ?>
+
+            <a href="images/images/1.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/1.JPG" alt=""/></a>
+            <a href="images/images/2.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/2.JPG" alt=""/></a>
+            <a href="images/images/3.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/3.JPG" alt=""/></a>
+            <a href="images/images/4.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/4.JPG" alt=""/></a>
+            
+            
+
          </div>
      	</div>
      </section>
@@ -123,7 +140,8 @@ return " ";
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/lightbox.js"></script>
+    <!-- <script src="js/lightbox.js"></script> -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
