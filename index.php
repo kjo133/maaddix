@@ -69,8 +69,17 @@ return " ";
    <!--   HERO SECTION -->
      <div class="hero">
         <div id="heroLogo">
-          <a href="#about"><img src="images/logo/Maaddix-03.png" ></a>
-          <h3>A Love Affair With Mountain Air</h3>
+          <div class="row">
+            <div class="mobile col-xs-12 hidden-sm hidden-md hidden-lg">
+              <img src="images/logo/Maaddix-logo-small.png"/>
+            </div>
+            <div class="desktop hidden-xs col-sm-12">
+              <img  src="images/logo/Maaddix-03.png" />  
+               <h3>A Love Affair With Mountain Air</h3> <!--Tab-->
+            </div>
+          </div>
+         <!--  <a href="#about"><img src="images/logo/Maaddix-03.png" ></a>
+          <h3>A Love Affair With Mountain Air</h3> -->
         </div> 
      </div>
      <!-- MAIN -->
@@ -80,14 +89,14 @@ return " ";
           <h1>Our Mission</h1>
           <h2>Mountain Air Addix (MAADDIX) is an apparel-logo lifestyle brand encompassing all mountain adventures and mountain sports.  </h2>
           <br />
-           <p>We created this lifestyle brand for all mountain adventurers, for a culture that appreciates all the earth has to offer, and for those that are not ashamed of their love affair with mountain air.  
+           <p>We created this lifestyle brand for all mountain adventurers, for a culture that appreciates all the earth has to offer, and for those who embrace  their love affair with mountain air.  
            <br />
            <br />
            Mountains are not meant to be barriers or hindrances, but meant to be overcome and conquered.  Your mountain is calling, go climb it and share it with MAADDIX.  
            <br/>
            <br/>
-              <p style="font-size: 14px;">Founder: Anna Boling
-              <br/ >
+              <p style="font-size: 14px;">Co-Founders: Anna Boling & Susie Hoopes
+              <br />
               <a target="_blank" href="http://www.kevinjolson.com/portfolio" style="color:white;">Web Master: Kevin Olson</a>
               </p>
            </p>
@@ -100,6 +109,7 @@ return " ";
      	<div class="wrapper" id="gallery">
      		<h1>Adventure Gallery</h1>
           <div class="ImageContainer">
+            <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our Mountain Air Addix.  <br/> Send us your latest and greatest conquests at <a href='#'>mountainairaddix@gmail.com </a></h2>
           <!--   <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our Mountain Air Addix.  <br/> Send us your latest and greatest conquests at <a href='#'>mountainairaddix@gmail.com </a></h2>
             <div class="lightbox-gallery">
                 <?php  
@@ -110,19 +120,19 @@ return " ";
                   }
                 ?>         
             </div> -->
-
+            <div class="lightbox-gallery">
             <?php
               $dirname = "images/images/";
               $images = glob($dirname."*.JPG");
               foreach ($images as $image) {
-                echo $image;
+                echo '<a href="'.$image.'" data-lightbox="example-set"><img class="previewImage" src="'.$image.'" /></a>';
               }
             ?>
-
-            <a href="images/images/1.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/1.JPG" alt=""/></a>
+            </div>
+           <!--  <a href="images/images/1.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/1.JPG" alt=""/></a>
             <a href="images/images/2.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/2.JPG" alt=""/></a>
             <a href="images/images/3.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/3.JPG" alt=""/></a>
-            <a href="images/images/4.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/4.JPG" alt=""/></a>
+            <a href="images/images/4.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/4.JPG" alt=""/></a> -->
             
             
 
@@ -138,6 +148,8 @@ return " ";
     </div>
   </footer>
 
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <!-- <script src="js/lightbox.js"></script> -->
@@ -145,5 +157,13 @@ return " ";
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+     <script>
+      lightbox.option({
+        'disableScrolling': true,
+        'alwaysShowNavOnTouchDevices' : true,
+        'wrapAround' : true
+
+      });
+    </script>
   </body>
 </html>
