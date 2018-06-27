@@ -1,33 +1,5 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
-
-<!-- <SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "m@addixpwd") {
-alert('You Got it Right!');
-window.open('www.wikihow.com');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</SCRIPT>
-<CENTER>
-<FORM>
-<input type="button" value="Enter Protected Area" onClick="passWord()">
-</FORM>
-</CENTER> -->
-
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -38,6 +10,8 @@ return " ";
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <link rel="stylesheet" href="css/lightbox.css">
+    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script> -->
   </head>
 
   <body>
@@ -67,11 +41,12 @@ return " ";
   </nav>
 
    <!--   HERO SECTION -->
-     <div class="hero">
+     <section class="hero">
         <div id="heroLogo">
           <div class="row">
             <div class="mobile col-xs-12 hidden-sm hidden-md hidden-lg">
               <img src="images/logo/Maaddix-logo-small.png"/>
+              <h3 style="margin-top: -65px;">A Love Affair With Mountain Air</h3>
             </div>
             <div class="desktop hidden-xs col-sm-12">
               <img  src="images/logo/Maaddix-03.png" />  
@@ -81,7 +56,7 @@ return " ";
          <!--  <a href="#about"><img src="images/logo/Maaddix-03.png" ></a>
           <h3>A Love Affair With Mountain Air</h3> -->
         </div> 
-     </div>
+     </section>
      <!-- MAIN -->
      <section class="main" id="about">
        <div class="wrapper row">
@@ -104,22 +79,18 @@ return " ";
        </div>
      </section>
 
+<!-- 
+     <div class="toFadeIn" id="fadeIn" >
+       <h1>FADE THIS IN</h1>
+     </div>
+ -->
+
 <!-- Photo Gallery -->
      <section class="gallery">
      	<div class="wrapper" id="gallery">
      		<h1>Adventure Gallery</h1>
           <div class="ImageContainer">
             <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our Mountain Air Addix.  <br/> Send us your latest and greatest conquests at <a href='#'>mountainairaddix@gmail.com </a></h2>
-          <!--   <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our Mountain Air Addix.  <br/> Send us your latest and greatest conquests at <a href='#'>mountainairaddix@gmail.com </a></h2>
-            <div class="lightbox-gallery">
-                <?php  
-                  $dirname = "images/images/";
-                  $images = glob($dirname."*.JPG");
-                  foreach ($images as $image) {
-                    echo '<div><img src="'.$image.'" /></div>';
-                  }
-                ?>         
-            </div> -->
             <div class="lightbox-gallery">
             <?php
               $dirname = "images/images/";
@@ -129,13 +100,6 @@ return " ";
               }
             ?>
             </div>
-           <!--  <a href="images/images/1.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/1.JPG" alt=""/></a>
-            <a href="images/images/2.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/2.JPG" alt=""/></a>
-            <a href="images/images/3.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/3.JPG" alt=""/></a>
-            <a href="images/images/4.JPG" data-lightbox="example-set" data-title="Title Here"><img class="previewImage" src="images/images/4.JPG" alt=""/></a> -->
-            
-            
-
          </div>
      	</div>
      </section>
@@ -150,8 +114,12 @@ return " ";
 
 
 
-    <script src="js/vendor/jquery.js"></script>
+
+    <!-- <script src="js/vendor/jquery.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="js/fadeIn.js"></script> --> <!-- FADE for phase 2 -->
     <script src="js/bootstrap.js"></script>
+
     <!-- <script src="js/lightbox.js"></script> -->
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/vendor/what-input.js"></script>
