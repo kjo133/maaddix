@@ -6,6 +6,7 @@ html {
 }
 .navbar-inverse {
   background-color: #222;
+  border: none;
 }
 .navbar-brand {
   padding: 0px;
@@ -17,6 +18,16 @@ html {
 }
 .navbar {
   margin-bottom: 0;
+  background: none;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: none;
+}
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+  font-size: 25px;
 }
 .navbar-brand {
   height: 75px;
