@@ -46,7 +46,7 @@ html {
   margin: 0 auto;
 }
 .hero {
-  background: url(../../images/images/sunset.jpeg) no-repeat center center fixed;
+  background: url(../images/images/sunsetSmaller.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
