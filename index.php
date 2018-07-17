@@ -58,7 +58,7 @@
         </div> 
      </section>
      <!-- MAIN -->
-     <section class="main" id="about">
+<!--      <section class="main" id="about">
        <div class="wrapper row">
          <div class="medium-12 column">
           <h1>Our Mission</h1>
@@ -76,6 +76,20 @@
               </p>
            </p>
          </div>
+       </div>
+     </section> -->
+     <section class="aboutContainer">
+       <div><h2>What is MAADDIX?</h2></div>
+       <div><p>We are a lifestyle brand for all things mountain adventurers.  We love to share beautiful pictures from travelers all over the world.</p> </div>
+       <!-- <div>Mountain Air Addix (MAADDIX) is an apparel-logo lifestyle brand encompassing all mountain adventures and mountain sports.
+
+We created this lifestyle brand for all mountain adventurers, for a culture that appreciates all the earth has to offer, and for those who embrace their love affair with mountain air. 
+
+Mountains are not meant to be barriers or hindrances, but meant to be overcome and conquered. Your mountain is calling, go climb it and share it with MAADDIX. </div> -->
+     </section >
+     <section class="main">
+       <div class="featured">
+         
        </div>
      </section>
 
