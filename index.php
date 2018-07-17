@@ -87,9 +87,11 @@ We created this lifestyle brand for all mountain adventurers, for a culture that
 
 Mountains are not meant to be barriers or hindrances, but meant to be overcome and conquered. Your mountain is calling, go climb it and share it with MAADDIX. </div> -->
      </section >
-     <section class="main">
+     <section class="mainContainer">
        <div class="featured">
-         
+         <p>Featured Traveler<p>
+         <h1>Justin Rexroad</h1>
+         <p>Destination Peru<p>
        </div>
      </section>
 
