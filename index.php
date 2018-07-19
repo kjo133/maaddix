@@ -31,6 +31,7 @@
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#featured">Featured</a></li>
           <li><a target="_blank" href="https://www.instagram.com/ma_addix/"><i class="fa fa-lg fa-instagram"></i></a></li>
           <li><a target="_blank" href="https://www.youtube.com/channel/UCEjYZO3Mw_voTiDboWBl7Sg" ><i class="fa fa-lg fa-youtube"></i></a></li>
         </ul>
@@ -57,43 +58,18 @@
           <h3>A Love Affair With Mountain Air</h3> -->
         </div> 
      </section>
-     <!-- MAIN -->
-<!--      <section class="main" id="about">
-       <div class="wrapper row">
-         <div class="medium-12 column">
-          <h1>Our Mission</h1>
-          <h2>Mountain Air Addix (MAADDIX) is an apparel-logo lifestyle brand encompassing all mountain adventures and mountain sports.  </h2>
-          <br />
-           <p>We created this lifestyle brand for all mountain adventurers, for a culture that appreciates all the earth has to offer, and for those who embrace  their love affair with mountain air.  
-           <br />
-           <br />
-           Mountains are not meant to be barriers or hindrances, but meant to be overcome and conquered.  Your mountain is calling, go climb it and share it with MAADDIX.  
-           <br/>
-           <br/>
-              <p style="font-size: 14px;">Co-Founders: Anna Boling & Susie Hoopes
-              <br />
-              <a target="_blank" href="http://www.kevinjolson.com/portfolio" style="color:white;">Web Master: Kevin Olson</a>
-              </p>
-           </p>
-         </div>
-       </div>
-     </section> -->
+     <!-- About -->
      <section class="aboutContainer">
-       <div><h2>What is MAADDIX?</h2></div>
-       <div><p>We are a lifestyle brand for all things mountain adventurers.  We love to share beautiful pictures from travelers all over the world.</p> </div>
-       <!-- <div>Mountain Air Addix (MAADDIX) is an apparel-logo lifestyle brand encompassing all mountain adventures and mountain sports.
+       <div>
+        <h2>What is MAADDIX?</h2>
+        <p>We are a lifestyle brand for all things mountain adventurers.  We love to share beautiful pictures from travelers all over the world.</p>
 
-We created this lifestyle brand for all mountain adventurers, for a culture that appreciates all the earth has to offer, and for those who embrace their love affair with mountain air. 
-
-Mountains are not meant to be barriers or hindrances, but meant to be overcome and conquered. Your mountain is calling, go climb it and share it with MAADDIX. </div> -->
-     </section >
-     <section class="mainContainer">
-       <div class="featured">
-         <p>Featured Traveler<p>
-         <h1>Justin Rexroad</h1>
-         <p>Destination Peru<p>
        </div>
-     </section>
+       <div>
+
+        </div>
+     </section >
+     
 
 <!-- 
      <div class="toFadeIn" id="fadeIn" >
@@ -120,6 +96,42 @@ Mountains are not meant to be barriers or hindrances, but meant to be overcome a
      	</div>
      </section>
 
+          <section class="gallery">
+            <h2>Adventure Gallery</h2>
+      <div class="imageContainer2" id="gallery">
+        <!-- <h1>Adventure Gallery</h1> -->
+         <div><img src="images/images/1.JPG"/></div>
+         <div class="verticalImage"><img src="images/images/2.JPG" /></div>
+         <div class="horizontalImage"><img src="images/images/3.JPG" /></div>
+         <div><img src="images/images/4.JPG"/></div>
+         <div><img src="images/images/5.JPG"/></div>
+         <div class="verticalImage"><img src="images/images/6.JPG"/></div>
+         <div><img src="images/images/7.JPG"/></div>
+         <div><img src="images/images/8.JPG"/></div>
+         <div><img src="images/images/9.JPG"/></div>
+         <div><img src="images/images/10.JPG"/></div>
+         <div class="horizontalImage"><img src="images/images/11.JPG"/></div>
+         <div><img src="images/images/1.JPG"/></div>
+         <div class="verticalImage"><img src="images/images/2.JPG" /></div>
+         <div class="horizontalImage"><img src="images/images/3.JPG" /></div>
+         <div><img src="images/images/4.JPG"/></div>
+         <div><img src="images/images/5.JPG"/></div>
+         <div class="verticalImage"><img src="images/images/6.JPG"/></div>
+         <div><img src="images/images/7.JPG"/></div>
+         <div><img src="images/images/8.JPG"/></div>
+         <div><img src="images/images/9.JPG"/></div>
+         <div><img src="images/images/10.JPG"/></div>
+         <div class="horizontalImage"><img src="images/images/11.JPG"/></div>
+      </div>
+     </section>
+     <section class="mainContainer" id="featured">
+       <div class="featured">
+        <p>Featured Traveler</p>
+        <h1><a href="#">Justin Rexroad</a></h1>
+        <p>Destination Peru</p>  
+       </div>
+     </section>
+
 <!-- FOOTER -->
   <footer>
     <div class="container text-center">
@@ -127,9 +139,6 @@ Mountains are not meant to be barriers or hindrances, but meant to be overcome a
       <a target="_blank" href="https://www.youtube.com/channel/UCEjYZO3Mw_voTiDboWBl7Sg"><i class="fa fa-2x fa-youtube"></i></a>
     </div>
   </footer>
-
-
-
 
     <!-- <script src="js/vendor/jquery.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
