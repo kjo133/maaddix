@@ -98,30 +98,33 @@
 
           <section class="gallery">
             <h2>Adventure Gallery</h2>
-      <div class="imageContainer2" id="gallery">
-        <!-- <h1>Adventure Gallery</h1> -->
-         <div><img src="images/images/1.JPG"/></div>
-         <div class="verticalImage"><img src="images/images/2.JPG" /></div>
-         <div class="horizontalImage"><img src="images/images/3.JPG" /></div>
-         <div><img src="images/images/4.JPG"/></div>
-         <div><img src="images/images/5.JPG"/></div>
-         <div class="verticalImage"><img src="images/images/6.JPG"/></div>
-         <div><img src="images/images/7.JPG"/></div>
-         <div><img src="images/images/8.JPG"/></div>
-         <div><img src="images/images/9.JPG"/></div>
-         <div><img src="images/images/10.JPG"/></div>
-         <div class="horizontalImage"><img src="images/images/11.JPG"/></div>
-         <div><img src="images/images/1.JPG"/></div>
-         <div class="verticalImage"><img src="images/images/2.JPG" /></div>
-         <div class="horizontalImage"><img src="images/images/3.JPG" /></div>
-         <div><img src="images/images/4.JPG"/></div>
-         <div><img src="images/images/5.JPG"/></div>
-         <div class="verticalImage"><img src="images/images/6.JPG"/></div>
-         <div><img src="images/images/7.JPG"/></div>
-         <div><img src="images/images/8.JPG"/></div>
-         <div><img src="images/images/9.JPG"/></div>
-         <div><img src="images/images/10.JPG"/></div>
-         <div class="horizontalImage"><img src="images/images/11.JPG"/></div>
+          <div class="galleryWrapper">
+            <div class="imageContainer2" id="gallery">
+              <!-- <h1>Adventure Gallery</h1> -->
+              <a href="#" style="border:solid red;"><img src="images/images/1.JPG"/></a>
+              <a href="#" style="border:solid red;"><img src="images/images/1.JPG"/></a>
+              <!-- <div class="verticalImage"><a><img src="images/images/2.JPG" /></a></div>
+              <div class="horizontalImage"><img src="images/images/3.JPG" /></div> -->
+               <!--<div><img src="images/images/4.JPG"/></div>
+               <div><img src="images/images/5.JPG"/></div>
+               <div class="verticalImage"><img src="images/images/6.JPG"/></div>
+               <div><img src="images/images/7.JPG"/></div>
+               <div><img src="images/images/8.JPG"/></div>
+               <div><img src="images/images/9.JPG"/></div>
+               <div><img src="images/images/10.JPG"/></div>
+               <div class="horizontalImage"><img src="images/images/11.JPG"/></div>
+               <div><img src="images/images/1.JPG"/></div>
+               <div class="verticalImage"><img src="images/images/2.JPG" /></div>
+               <div class="horizontalImage"><img src="images/images/3.JPG" /></div>
+               <div><img src="images/images/4.JPG"/></div>
+               <div><img src="images/images/5.JPG"/></div>
+               <div class="verticalImage"><img src="images/images/6.JPG"/></div>
+               <div><img src="images/images/7.JPG"/></div>
+               <div><img src="images/images/8.JPG"/></div>
+               <div><img src="images/images/9.JPG"/></div>
+               <div><img src="images/images/10.JPG"/></div>
+               <div class="horizontalImage"><img src="images/images/11.JPG"/></div> -->
+            </div>
       </div>
      </section>
      <section class="mainContainer" id="featured">

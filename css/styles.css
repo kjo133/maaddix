@@ -204,6 +204,10 @@ html {
 .gallery h2 a {
   color: white;
 }
+.galleryWrapper {
+  height: 800px;
+  overflow-y: scroll;
+}
 .imageContainer2 {
   /* height: 900px;
   width: 90%;
@@ -216,19 +220,33 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-auto-rows: 200px;
   grid-auto-flow: dense;
-  overflow-y: scroll;
   border: solid blue;
 }
-.imageContainer2 > div {
+/*.imageContainer2>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+/*.imageContainer2>div>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}*/
+.imageContainer2 > a {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.imageContainer2 > div > img {
+.imageContainer2 > a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/*.imageContainer2>div>a{
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+}*/
 .horizontalImage {
   grid-column: span 2;
 }
