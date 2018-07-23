@@ -78,52 +78,45 @@
  -->
 
 <!-- Photo Gallery -->
-     <section class="gallery">
-     	<div class="wrapper" id="gallery">
-     		<h1>Adventure Gallery</h1>
-          <div class="ImageContainer">
-            <h2 class="text-center">Check out these awesome views and epic adventures taken by all of our Mountain Air Addix.  <br/> Send us your latest and greatest conquests at <a href='#'>mountainairaddix@gmail.com </a></h2>
-            <div class="lightbox-gallery">
-            <?php
-              $dirname = "images/images/";
-              $images = glob($dirname."*.JPG");
-              foreach ($images as $image) {
-                echo '<a href="'.$image.'" data-lightbox="example-set"><img class="previewImage" src="'.$image.'" /></a>';
+    <section class="gallery">
+      <h2>Adventure Gallery</h2>
+      <div class="galleryWrapper">
+        <div class="imageContainer2" id="gallery">
+              <!-- <?php 
+                $dirname = "images/images/";
+                $images = glob($dirname."*.JPG");
+                echo $images;
+                foreach ($images as $image) {
+                  echo '<script>console.log("'.$image.'");</script>';
+                  list($width, $height) = getimagesize($image);
+                  echo '<script>console.log("width: '.$width.' height: '.$height.'");</script>';
+                  
               }
-            ?>
-            </div>
-         </div>
-     	</div>
-     </section>
+              ?> -->
 
-          <section class="gallery">
-            <h2>Adventure Gallery</h2>
-          <div class="galleryWrapper">
-            <div class="imageContainer2" id="gallery">
-              <!-- <h1>Adventure Gallery</h1> -->
-              <a href="#" style="border:solid red;"><img src="images/images/1.JPG"/></a>
-              <a href="#" style="border:solid red;"><img src="images/images/1.JPG"/></a>
-              <!-- <div class="verticalImage"><a><img src="images/images/2.JPG" /></a></div>
-              <div class="horizontalImage"><img src="images/images/3.JPG" /></div> -->
-               <!--<div><img src="images/images/4.JPG"/></div>
-               <div><img src="images/images/5.JPG"/></div>
-               <div class="verticalImage"><img src="images/images/6.JPG"/></div>
-               <div><img src="images/images/7.JPG"/></div>
-               <div><img src="images/images/8.JPG"/></div>
-               <div><img src="images/images/9.JPG"/></div>
-               <div><img src="images/images/10.JPG"/></div>
-               <div class="horizontalImage"><img src="images/images/11.JPG"/></div>
-               <div><img src="images/images/1.JPG"/></div>
-               <div class="verticalImage"><img src="images/images/2.JPG" /></div>
-               <div class="horizontalImage"><img src="images/images/3.JPG" /></div>
-               <div><img src="images/images/4.JPG"/></div>
-               <div><img src="images/images/5.JPG"/></div>
-               <div class="verticalImage"><img src="images/images/6.JPG"/></div>
-               <div><img src="images/images/7.JPG"/></div>
-               <div><img src="images/images/8.JPG"/></div>
-               <div><img src="images/images/9.JPG"/></div>
-               <div><img src="images/images/10.JPG"/></div>
-               <div class="horizontalImage"><img src="images/images/11.JPG"/></div> -->
+              <a href="images/images/1.JPG" data-lightbox="example-set"><img class="previewImage" src="images/images/1.JPG"/></a>
+              <a href="#" class="verticalImage"><img src="images/images/2.JPG" /></a>
+              <a href="#" class="horizontalImage"><img src="images/images/3.JPG"/></a> 
+               <a><img src="images/images/4.JPG"/></a>
+               <a><img src="images/images/5.JPG"/></a>
+               <a class="verticalImage"><img src="images/images/6.JPG"/></a>
+               <a><img src="images/images/7.JPG"/></a>
+               <a><img src="images/images/8.JPG"/></a>
+               <a><img src="images/images/9.JPG"/></a>
+               <a><img src="images/images/10.JPG"/></a>
+               <a class="horizontalImage"><img src="images/images/11.JPG"/></a>
+               <a><img src="images/images/12.JPG"/></a>
+               <a class="verticalImage"><img src="images/images/13.JPG" /></a>
+               <a class="horizontalImage"><img src="images/images/14.JPG" /></a>
+               <a><img src="images/images/15.JPG"/></a>
+               <a><img src="images/images/16.JPG"/></a>
+               <a class="verticalImage"><img src="images/images/17.JPG"/></a>
+               <a><img src="images/images/18.JPG"/></a>
+               <a><img src="images/images/19.JPG"/></a>
+               <a><img src="images/images/20.JPG"/></a>
+               <a><img src="images/images/21.JPG"/></a>
+               <a class="horizontalImage"><img src="images/images/22.JPG"/></a> 
+           
             </div>
       </div>
      </section>
