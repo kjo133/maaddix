@@ -95,27 +95,27 @@
               ?> -->
 
               <a href="images/images/1.JPG" data-lightbox="example-set"><img class="previewImage" src="images/images/1.JPG"/></a>
-              <a href="images/images/2.JPG" class="verticalImage"><img src="images/images/2.JPG" /></a>
-              <a href="images/images/3.JPG" class="horizontalImage"><img src="images/images/3.JPG"/></a> 
-               <a href="images/images/4.JPG"><img src="images/images/4.JPG"/></a>
-               <a href="images/images/5.JPG"><img src="images/images/5.JPG"/></a>
-               <a href="images/images/6.JPG" class="verticalImage"><img src="images/images/6.JPG"/></a>
-               <a href="images/images/7.JPG"><img src="images/images/7.JPG"/></a>
-               <a href="images/images/8.JPG"><img src="images/images/8.JPG"/></a>
-               <a href="images/images/9.JPG"><img src="images/images/9.JPG"/></a>
-               <a href="images/images/10.JPG"><img src="images/images/10.JPG"/></a>
-               <a href="images/images/11.JPG" class="horizontalImage"><img src="images/images/11.JPG"/></a>
-               <a href="images/images/12.JPG"><img src="images/images/12.JPG"/></a>
-               <a href="images/images/13.JPG" class="verticalImage"><img src="images/images/13.JPG" /></a>
-               <a href="images/images/14.JPG" class="horizontalImage"><img src="images/images/14.JPG" /></a>
-               <a href="images/images/15.JPG"><img src="images/images/15.JPG"/></a>
-               <a href="images/images/16.JPG"><img src="images/images/16.JPG"/></a>
-               <a href="images/images/17.JPG" class="verticalImage"><img src="images/images/17.JPG"/></a>
-               <a href="images/images/18.JPG"><img src="images/images/18.JPG"/></a>
-               <a href="images/images/19.JPG"><img src="images/images/19.JPG"/></a>
-               <a href="images/images/20.JPG"><img src="images/images/20.JPG"/></a>
-               <a href="images/images/21.JPG"><img src="images/images/21.JPG"/></a>
-               <a href="images/images/22.JPG" class="horizontalImage"><img src="images/images/22.JPG"/></a> 
+              <a href="images/images/2.JPG" data-lightbox="example-set" class="verticalImage"><img src="images/images/2.JPG" /></a>
+              <a href="images/images/3.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/images/3.JPG"/></a> 
+               <a href="images/images/4.JPG" data-lightbox="example-set"><img src="images/images/4.JPG"/></a>
+               <a href="images/images/5.JPG" data-lightbox="example-set"><img src="images/images/5.JPG"/></a>
+               <a href="images/images/6.JPG" data-lightbox="example-set" class="verticalImage"><img src="images/images/6.JPG"/></a>
+               <a href="images/images/7.JPG" data-lightbox="example-set"><img src="images/images/7.JPG"/></a>
+               <a href="images/images/8.JPG" data-lightbox="example-set"><img src="images/images/8.JPG"/></a>
+               <a href="images/images/9.JPG" data-lightbox="example-set"><img src="images/images/9.JPG"/></a>
+               <a href="images/images/10.JPG" data-lightbox="example-set"><img src="images/images/10.JPG"/></a>
+               <a href="images/images/11.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/images/11.JPG"/></a>
+               <a href="images/images/12.JPG" data-lightbox="example-set"><img src="images/images/12.JPG"/></a>
+               <a href="images/images/13.JPG" data-lightbox="example-set" class="verticalImage"><img src="images/images/13.JPG" /></a>
+               <a href="images/images/14.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/images/14.JPG" /></a>
+               <a href="images/images/15.JPG" data-lightbox="example-set"><img src="images/images/15.JPG"/></a>
+               <a href="images/images/16.JPG" data-lightbox="example-set"><img src="images/images/16.JPG"/></a>
+               <a href="images/images/17.JPG" data-lightbox="example-set" class="verticalImage"><img src="images/images/17.JPG"/></a>
+               <a href="images/images/18.JPG" data-lightbox="example-set"><img src="images/images/18.JPG"/></a>
+               <a href="images/images/19.JPG" data-lightbox="example-set"><img src="images/images/19.JPG"/></a>
+               <a href="images/images/20.JPG" data-lightbox="example-set"><img src="images/images/20.JPG"/></a>
+               <a href="images/images/21.JPG" data-lightbox="example-set"><img src="images/images/21.JPG"/></a>
+               <a href="images/images/22.JPG" data-lightbox="example-set" class="horizontalImage"><img src="images/images/22.JPG"/></a> 
            
             </div>
       </div>
