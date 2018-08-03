@@ -63,10 +63,11 @@
        <div>
         <h2>What is MAADDIX?</h2>
         <p>We are a lifestyle brand for all things mountain adventurers.  We love to share beautiful pictures from travelers all over the world.</p>
-
        </div>
-       <div>
-
+       <!-- <div style="background: url(images/photoshop/about.png) center no-repeat; background-size: cover;"> -->
+        <div>
+        <img src="images/about.png" style="margin-top: -70px; margin-left: 150px;">
+          <!-- <img src="images/photoshop/mountain.png" style="border:solid red; height: 200px; width: 200px; margin-left: 200px;"> -->
         </div>
      </section >
      
@@ -123,7 +124,7 @@
      <section class="mainContainer" id="featured">
        <div class="featured">
         <p>Featured Traveler</p>
-        <h1><a href="#">Justin Rexroad</a></h1>
+        <h1><a href="pages/featured.php">Justin Rexroad</a></h1>
         <p>Destination Peru</p>  
        </div>
      </section>

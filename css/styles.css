@@ -159,7 +159,6 @@ html {
   background-color: #222;
   padding-top: 100px;
   color: white;
-  border: solid white 3px;
 }
 .aboutContainer > div:nth-child(1n) h2 {
   width: 70%;
@@ -329,4 +328,12 @@ footer {
   height: 75px;
   background-color: black;
   padding-top: 20px;
+}
+#featuredHero {
+  background: url(../images/featured/main.jpg) no-repeat center center fixed;
+}
+#featuredHero h1 {
+  margin: 400px 0 0 100px;
+  color: white;
+  font-size: 45px;
 }
