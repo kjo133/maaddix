@@ -41,6 +41,9 @@ Old About Section
 
 
 
+npm run dev
+
+
 OLD GALLERY
 <section class="gallery">
      	<div class="wrapper" id="gallery">
@@ -59,3 +62,45 @@ OLD GALLERY
          </div>
      	</div>
      </section>
+
+
+
+Grid About
+.aboutContainer {
+  display: grid;
+  /*grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));*/
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-rows: 500px;
+}
+.aboutContainer > div {
+  justify-content: center;
+  align-items: center;
+}
+.aboutContainer > div:nth-child(1n) {
+  background-color: #fff;
+  padding-top: 100px;
+  color: #111;
+  h2 {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 55px;
+    text-align: center;
+  }
+  p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 23px;
+    text-align: center;
+  }
+}
+
+.aboutContainer > div:nth-child(2n) {
+  background-color: #fff;
+  p {
+    width: 80%;
+    margin: 0 auto;
+    color: #111;
+    font-size: 20px;
+    text-align: left;
+  }
+}

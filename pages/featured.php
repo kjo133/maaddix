@@ -35,7 +35,6 @@
   	</nav>
   	<section class="mainContainer" id="featuredHero">
        <h1>Destination Peru <br /> Justin Rexroad</h1>
-       
      </section>
 </body>
 </html>
