@@ -151,6 +151,7 @@ html {
   height: 790px;
   background-color: #fff;
   font-family: "Fjalla One", sans-serif;
+  overflow-y: scroll;
 }
 .aboutContainer h1 {
   text-align: center;
